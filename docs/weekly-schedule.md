@@ -19,24 +19,24 @@ Please follow the links in each cell for additional detail which will be added b
 
 | Class 1 (Wednesday 11:40-1:25) |	Class 2 (Friday 11:40-1:25) |	Deliverables/Evaluation |
 | --- | --- | --- |
-| Introduction to the Course, Introduction to the Problem, and Computer Architecture Basics (ADD LINK) |	Binary Representation of Data (ADD LINK) | Follow the SPO600 Communication Tools (ADD LINK) set-up instructions. |
-|  |	 | Optional (strongly recommended): Set up a personal Linux system. (ADD LINK) |
+| Introduction to the Course, Introduction to the Problem, and Computer Architecture Basics (ADD LINK) |	Binary Representation of Data (ADD LINK) | Follow the [SPO600 Communication Tools](/D-ExtraResources/communication-tools.md)  set-up instructions. |
+|  |	 | Optional (strongly recommended): [Set up a personal Linux system](/D-ExtraResources/host-setup-md) |
 |  |  | Optional: If you have an AArch64 development board (such as a Raspberry Pi 4, Raspberry Pi 400, or [96Boards](http://96boards.org/) device), consider installing a 64-bit Linux operating system such as Fedora on it. |
-|  |  | Start work on Lab 1 (ADD LINK). Blog your work. |
+|  |  | Start work on [Lab 1](/B-Labs/lab1.md). Blog your work. |
 
 ## Week 2
 
 | Class 1 (Wednesday 11:40-1:25) |	Class 2 (Friday 11:40-1:25) |	Deliverables/Evaluation |
 | --- | --- | --- |
-| Introduction to 6502 Assembly (ADD LINK) |	6502 Math - Jumps, Branches, and Subroutines (ADD LINK) | **If not already completed last week**: Set up your SPO600 Communication Tools (ADD LINK), and Complete Lab 1 (ADD LINK) and blog your work.|
+| Introduction to 6502 Assembly (ADD LINK) |	6502 Math - Jumps, Branches, and Subroutines (ADD LINK) | **If not already completed last week**: Set up your [SPO600 Communication Tools](/D-ExtraResources/communication-tools.md), and Complete [Lab 1](/B-Labs/lab1.md) and blog your work.|
 |  |	 | Study the 6502 Instructions (ADD LINK) and 6502 Addressing Modes (ADD LINK) and make sure you understand what each one does. |
-|  |  | Complete Lab 2 (ADD LINK) and blog your results. |
+|  |  | Complete [Lab 2](/B-Labs/lab2.md) and blog your results. |
 
 ## Week 3
 
 | Class 1 (Wednesday 11:40-1:25) |	Class 2 (Friday 11:40-1:25) |	Deliverables/Evaluation |
 | --- | --- | --- |
-| 6502 Strings (ADD LINK)	| 6502 String Input and Building Code: Make and Makefiles	(ADD LINK) | Lab 3 (ADD LINK) |
+| 6502 Strings (ADD LINK)	| 6502 String Input and Building Code: Make and Makefiles	(ADD LINK) | [Lab 3](/B-Labs/lab3.md) |
 |  |	 | Note that September blog posts are due at the end of next week, so don't get behind in your blogging |
 
 ## Week 4
@@ -49,19 +49,19 @@ Please follow the links in each cell for additional detail which will be added b
 
 | Class 1 (Wednesday 11:40-1:25) |	Class 2 (Friday 11:40-1:25) |	Deliverables/Evaluation |
 | --- | --- | --- |
-| Introduction to 64-bit Architectures and Assembly Language (x86_64 and AArch64) (ADD LINK) |	Memory on 64-bit Systems (ADD LINK) | Lab 4 (ADD LINK) |
+| Introduction to 64-bit Architectures and Assembly Language (x86_64 and AArch64) (ADD LINK) |	Memory on 64-bit Systems (ADD LINK) | [Lab 4](/B-Labs/lab4.md) |
 
 ## Week 6
 
 | Class 1 (Wednesday 11:40-1:25) |	Class 2 (Friday 11:40-1:25) |	Deliverables/Evaluation |
 | --- | --- | --- |
-| Mid-semester Sync Discussion (ADD LINK) |	Algorithm Selection, In-line Assembler, and SIMD (ADD LINK) | Lab 5 (ADD LINK) |
+| Mid-semester Sync Discussion (ADD LINK) |	Algorithm Selection, In-line Assembler, and SIMD (ADD LINK) | [Lab 5](/B-Labs/lab5.md) |
 
 ## Week 7
 
 | Class 1 (Wednesday 11:40-1:25) |	Class 2 (Friday 11:40-1:25) |	Deliverables/Evaluation |
 | --- | --- | --- |
-| Exploring 64-bit Code (ADD LINK) |	SVE2 (ADD LINK) | Complete Lab 4 (ADD LINK) and Lab 5 (ADD LINK) |
+| Exploring 64-bit Code (ADD LINK) |	SVE2 (ADD LINK) | Complete [Lab 4](/B-Labs/lab4.md) and [Lab 5](/B-Labs/lab5.md) |
 |  |  | Remember that October blogs are due soon. |
 
 ## Reading Week
@@ -84,7 +84,7 @@ Please follow the links in each cell for additional detail which will be added b
 | --- | --- | --- |
 | GNU ifunc & Project Overview (ADD LINK)	| Project Detail (ADD LINK) | Investigate the iFunc example code |
 |  |  | Blog about your investigation |
-|  |  | Start blogging about your Project (ADD LINK) |
+|  |  | Start blogging about your [Project](/C-Projects/project.md) |
 
 ## Week 10
 
@@ -117,5 +117,5 @@ Please follow the links in each cell for additional detail which will be added b
 
 | Class 1 (Wednesday 11:40-1:25) |	Class 2 (Friday 11:40-1:25) |	Deliverables/Evaluation |
 | --- | --- | --- |
-| Future Directions in Architecture (ADD LINK) |	No Class | Project Stage 3 (ADD LINK) |
+| Future Directions in Architecture (ADD LINK) |	No Class | [Project Stage 3](/C-Projects/project.md#stage-3) |
 |  |  | December blog posts |
