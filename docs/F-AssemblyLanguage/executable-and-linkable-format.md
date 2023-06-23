@@ -7,7 +7,7 @@ description: Executable and Linkable Format
 
 # Executable and Linkable Format
 
-The Executable and Linkable Format (ELF) is a file format for binary executable files, object code, shared libraries, and core dumps (diagnostic snapshots of running software). It is a multi-section file format and can therefore be readily extended with additional information, such as IR for Link Time Optimization (ADD LINK) or debugging data. ELF is used across many different operating systems on a range of software platforms.
+The Executable and Linkable Format (ELF) is a file format for binary executable files, object code, shared libraries, and core dumps (diagnostic snapshots of running software). It is a multi-section file format and can therefore be readily extended with additional information, such as IR for [Link Time Optimization](/D-ExtraResources/link-time-optimization.md) or debugging data. ELF is used across many different operating systems on a range of software platforms.
 
 ## Tools
 
