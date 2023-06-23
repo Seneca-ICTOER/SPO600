@@ -13,13 +13,13 @@ In this lab, you will experiment with assembler on the x86_64 and aarch64 platfo
 
 ## SPO600 Servers
 
-Perform this lab on SPO600 Servers (ADD LINK) (you may use your own systems if they are of the right architecture and appropriately configured).
+Perform this lab on [SPO600 Servers](/D-ExtraResources/servers.md) (you may use your own systems if they are of the right architecture and appropriately configured).
 
 ## Lab Instructions
 
 ### Code Examples
 
-The code examples for this lab are available in the file `/public/spo600-assembler-lab-examples.tgz` on each of the SPO600 Servers (ADD LINK).
+The code examples for this lab are available in the file `/public/spo600-assembler-lab-examples.tgz` on each of the [SPO600 Servers](/D-ExtraResources/servers.md).
 
 Unpacking the archive in your home directory will produce the following directory structure:
 
@@ -43,14 +43,14 @@ spo600
             └── Makefile
 ```
 
-Throughout this lab, take advantage of make (ADD LINK) whenever possible.
+Throughout this lab, take advantage of [make](/D-ExtraResources/make-and-makefiles.md) whenever possible.
 
 ### Resources
 
-- Assembler Basics (ADD LINK) (includes instructions on how to use the GNU Assembler)
-- Syscalls (ADD LINK)
-- x86_64 Register and Instruction Quick Start (ADD LINK)
-- aarch64 Register and Instruction Quick Start (ADD LINK)
+- [Assembler Basics](/F-AssemblyLanguage/assembler-basics.md) (includes instructions on how to use the GNU Assembler)
+- [Syscalls](/F-AssemblyLanguage/syscalls.md)
+- [x86_64 Register and Instruction Quick Start](/F-AssemblyLanguage/x86-64-register-and-instruction-quick-start.md)
+- [aarch64 Register and Instruction Quick Start](/F-AssemblyLanguage/aarch64-register-and-instruction-quick-start.md)
 
 ### Optional Investigation
 
@@ -122,7 +122,7 @@ Loop: 9
 
 In order to print the loop index value, you will need to convert from an integer to digit character. In ASCII/ISO-8859-1/Unicode UTF-8, the digit characters are in the range 48-57 (0x30-0x39). You will also need to assemble the message to be printed for each line - you can do this by writing the digit into the message buffer before outputting it to stdout, which is probably the best approach, or you can perform a sequence of writes for the thee parts of the message ('Loop: ', number, '\n'). You may want to refer to the manpage for `ascii`.
 
-**6502 Implementation:** For reference, here is a 6502 implementation of this loop (ADD LINK).
+**6502 Implementation:** For reference, here is a [6502 implementation of this loop](/G-6502/6502-counting-loop-example-code.md).
 
 3. Repeat the previous step for x86_64.
 

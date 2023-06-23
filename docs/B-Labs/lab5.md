@@ -13,7 +13,7 @@ In this lab, you will investigate the impact of different algorithms which produ
 
 ## x86_64 and AArch64 Systems
 
-This lab must be performed on both x86_64 and AArch64 systems. You may use the SPO600 Servers (ADD LINK) or you may use other system(s) -- it might make sense to use your own x86_64 system and israel.cdot.systems (ADD LINK) for AArch64.
+This lab must be performed on both x86_64 and AArch64 systems. You may use the [SPO600 Servers](/D-ExtraResources/servers.md) or you may use other system(s) -- it might make sense to use your own x86_64 system and [israel.cdot.systems](/D-ExtraResources/servers.md#aarch64-israelcdotsystems) for AArch64.
 
 ## Lab Instructions
 
@@ -79,14 +79,14 @@ You **must**:
     - http://ref.x86asm.net/
     - http://sandpile.org/
 - Assembler and Inline Assembler
-  - Assembler Basics (ADD LINK)
-  - Inline Assembly Language (ADD LINK)
+  - [Assembler Basics](/F-AssemblyLanguage/assembler-basics.md)
+  - [Inline Assembly Language](/F-AssemblyLanguage/inline-assembly-language.md)
   - GAS Manual - Using as, The GNU Assembler: https://sourceware.org/binutils/docs/as/
     - Specifically, the [Assembler Instructions with C Expression Operands](http://gcc.gnu.org/onlinedocs/gcc-4.8.2/gcc/Extended-Asm.html) section
    
 ## Benchmarking
 
-Get the files for this lab from one of the SPO600 Servers (ADD LINK) -- but you can perform the lab wherever you want (feel free to use your laptop or home system). Test on both an x86\_64 and an AArch64 system.
+Get the files for this lab from one of the [SPO600 Servers](/D-ExtraResources/servers.md) -- but you can perform the lab wherever you want (feel free to use your laptop or home system). Test on both an x86\_64 and an AArch64 system.
 
 The files for this lab are in the archive `/public/spo600-volume-examples.tgz` on each of the SPO600 servers. The archive contains:
 

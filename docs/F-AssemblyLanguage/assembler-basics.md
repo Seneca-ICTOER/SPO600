@@ -75,7 +75,7 @@ Note also that the syntax will vary from assembler to assembler and from archite
 
 ## 6502 Assembly Language in the Emulator
 
-The 6502 Emulator (ADD LINK) provides a very simple assembler for 6502 (ADD LINK) code:
+The [6502 Emulator](/G-6502/6502-emulator.md) provides a very simple assembler for [6502](/G-6502/6502.md) code:
 
 Simple text-substitution macros can be defined with `define name value` like this:
 

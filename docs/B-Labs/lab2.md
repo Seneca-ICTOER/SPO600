@@ -9,18 +9,18 @@ description: Lab 2 for Students to Complete and Submit
 
 ## Purpose of this Lab
 
-In this lab, you will learn some of the basics of 6502 (ADD LINK) assembly language, in preparation for learning more complex x86_64 and AArch64 assembly language.
+In this lab, you will learn some of the basics of [6502](/G-6502/6502.md) assembly language, in preparation for learning more complex x86_64 and AArch64 assembly language.
 
 ## Resources
 
-- 6502 (ADD LINK) Page
-- 6502 Emulator (ADD LINK)
-- Assembler Basics (ADD LINK)
-- 6502 Emulator Example Code (ADD LINK)
+- [6502](/G-6502/6502.md) Page
+- [6502 Emulator](/G-6502/6502-emulator.md)
+- [Assembler Basics](/F-AssemblyLanguage/assembler-basics.md)
+- [6502 Emulator Example Code](/G-6502/6502-emulator-example-code.md)
 - Opcode/Instruction References
   - On this Site
-    - 6502 Instructions - Introduction (ADD LINK)
-    - 6502 Addressing Modes (ADD LINK)
+    - [6502 Instructions - Introduction](/G-6502/6502-instructions-introduction.md)
+    - [6502 Addressing Modes](/G-6502/6502-addressing-modes.md)
   - External
     - [6502 Opcodes with Register Definitions](http://www.6502.org/tutorials/6502opcodes.html)
     - [6502 Opcodes with Detailed Operation Information](https://www.masswerk.at/6502/6502_instruction_set.html)
@@ -30,7 +30,7 @@ In this lab, you will learn some of the basics of 6502 (ADD LINK) assembly langu
 
 ### Setup
 
-1. Open the 6502 Emulator (ADD LINK) at http://6502.cdot.systems in another tab or window, keeping this lab open.
+1. Open the [6502 Emulator](/G-6502/6502-emulator.md) at http://6502.cdot.systems in another tab or window, keeping this lab open.
 
 **Save Your Work:** The emulator **does not** save your work automatically. Remember to periodically save it to a file (copy-and-paste the code or use the `Save` button to create local files). Recommendation: save your files to a directory, and use [git](https://git-scm.com/) to manage that directory.
 
@@ -68,7 +68,7 @@ loop:	sta ($40),y	; set pixel colour at the address (pointer)+Y
 
 ### Modifying the Code
 
-6. Change the code to fill the display with light blue instead of yellow. (Tip: you can find the colour codes on the 6502 Emulator (ADD LINK) page).
+6. Change the code to fill the display with light blue instead of yellow. (Tip: you can find the colour codes on the [6502 Emulator](/G-6502/6502-emulator.md) page).
 7. Change the code to fill the display with a different colour on each page (each "page" will be one-quarter of the bitmapped display).
 
 ### Experiments (Optional, Recommended)
@@ -84,7 +84,7 @@ Go back to the bitmap code above, and try these experiments:
 7. Revert to the original code.
 8. The original code includes one `iny` instruction. Test with one to five consecutive `iny` instructions. Describe and explain the effect in each case. **Note**: it is helpful to place the Speed slider is on its lowest setting (left) for these experiments.
 9. Revert to the original code.
-10. Make each pixel a random colour. (Hint: use the psudo-random number generator mentioned on the 6502 Emulator (ADD LINK) page).
+10. Make each pixel a random colour. (Hint: use the psudo-random number generator mentioned on the [6502 Emulator](/G-6502/6502-emulator.md) page).
 
 ### Challenges (Optional, Recommended)
 
@@ -97,7 +97,7 @@ Go back to the bitmap code above, and try these experiments:
   
 ### Write-Up
 
-Post an entry on your blog describing your experiments in this lab. Follow the Blog Guidelines (ADD LINK). Include code as text (and not screenshots), but feel free to include screenshots of the bitmapped display.
+Post an entry on your blog describing your experiments in this lab. Follow the [Blog Guidelines](/D-ExtraResources/blog-guidelines.md). Include code as text (and not screenshots), but feel free to include screenshots of the bitmapped display.
 
 Include in your blog post:
 
@@ -113,4 +113,4 @@ Remember that labs are marked on a scale of 0-3:
 - 2 - Satisfactory completion of the lab.
 - 3 - Lab completed with additional experiments, investigation, research, or explanation. For example, you could do some of the optional sections in this lab, and include those in your blog writeup -- or you could create your own experiments.
 
-Remember to follow the Blog Guidelines (ADD LINK) as you write.
+Remember to follow the [Blog Guidelines](/D-ExtraResources/blog-guidelines.md) as you write.

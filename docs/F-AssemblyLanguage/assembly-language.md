@@ -114,7 +114,7 @@ len= 	. - msg
 
 ### 6502
 
-Here is the same "Hello World" program in 6502 (ADD LINK) assembler as used in the 6502 Emulator (ADD LINK), using the ROM routines (ADD LINK) for output:
+Here is the same "Hello World" program in [6502](/G-6502/6502.md) assembler as used in the [6502 Emulator](/G-6502/6502-emulator.md), using the [ROM routines](/G-6502/6502-emulator.md#rom-routines) for output:
 
 ```assembly
 define SCINIT $ff81 ; initialize/clear screen

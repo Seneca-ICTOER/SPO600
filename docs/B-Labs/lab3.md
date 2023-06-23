@@ -9,20 +9,20 @@ description: Lab 3 for Students to Complete and Submit
 
 ## Purpose of this Lab
 
-In this lab, you will write code with arithmetic/math and strings in 6502 (ADD LINK) assembly language, including text output, graphical output, and keyboard input, in preparation for learning more complex x86_64 and AArch64 assembly language.
+In this lab, you will write code with arithmetic/math and strings in [6502](/G-6502/6502.md) assembly language, including text output, graphical output, and keyboard input, in preparation for learning more complex x86_64 and AArch64 assembly language.
 
 ## Resources
 
-- 6502 (ADD LINK)
-- 6502 Emulator (ADD LINK)
-- 6502 Math (ADD LINK)
-- 6502 Jumps, Branches, and Procedures (ADD LINK)
-- 6502 Emulator Example Code (ADD LINK) - Specifically:
-  - Place a Graphic on the Screen (ADD LINK) - for an example of defining a graphic using DCB, and copying a graphic to the screen
-  - Etch-a-Sketch Style Drawing (ADD LINK) - for an example of converting (ROW,COL) co-ordinates to a screen address, and reading the keyboard
+- [6502](/G-6502/6502.md)
+- [6502 Emulator](/G-6502/6502-emulator.md)
+- [6502 Math](/G-6502/6502-math.md)
+- [6502 Jumps, Branches, and Procedures](/G-6502/6502-jumps-branches-and-procedures.md)
+- [6502 Emulator Example Code](/G-6502/6502-emulator-example-code.md) - Specifically:
+  - [Place a Graphic on the Screen](/G-6502/6502-emulator-example-code.md#place-a-graphic-on-the-screen) - for an example of defining a graphic using DCB, and copying a graphic to the screen
+  - [Etch-a-Sketch Style Drawing](/G-6502/6502-emulator-example-code.md#etch-a-sketchtm-style-drawing) - for an example of converting (ROW,COL) co-ordinates to a screen address, and reading the keyboard
 - [6502js-code](https://github.com/ctyler/6502js-code/) repo on GitHub - Specifically:
   - Wordle-like example (wordle-6502)
-- 8x8 Bitmap Patterns for Digits (ADD LINK)
+- [8x8 Bitmap Patterns for Digits](/G-6502/8x8-bitmap-patterns-for-digits.md)
 - Opcode/Instruction References
   - [6502 Opcodes with Register Definitions](http://www.6502.org/tutorials/6502opcodes.html)
   - [6502 Opcodes with Detailed Operation Information](https://www.masswerk.at/6502/6502_instruction_set.html)
@@ -36,7 +36,7 @@ In this lab, you will write code with arithmetic/math and strings in 6502 (ADD L
       - These values will need to include a fractional component for angles other than 45 degrees. This can be handled by using two bytes for each element of the X,Y position and for the deltaX and deltaY values, where one byte represents the integer portion and one byte represents the fractional portion (fixed-point representation).
   - Detect when the object has collided with the edge of the screen or other objects, and reverse the sign of the deltaX or deltaY value (or both). For example, when bouncing off the top or bottom of the display, set `deltaY = -deltaY`
 - Keyboard
-  - Access the keyboard using the CHRIN ROM routine (ADD LINK).
+  - Access the keyboard using the CHRIN [ROM routine](/G-6502/6502-emulator.md#rom-routines).
 - Random number generator
   - A random byte is available at memory location $FE.
 - Drawing a Line
@@ -50,7 +50,7 @@ In this lab, you will write code with arithmetic/math and strings in 6502 (ADD L
 
 For this lab, write a program that meets these criteria:
 
-1. Your program must work in the 6502 Emulator (ADD LINK)
+1. Your program must work in the [6502 Emulator](/G-6502/6502-emulator.md)
 2. You must output to the character screen as well as the graphics (bitmapped) screen.
 3. You must accept user input from the keyboard in some form.
 4. You must use some arithmetic/math instructions (to add, subtract, do bitwise operations, or rotate/shift)
@@ -85,7 +85,7 @@ You can interact with the user using either display. For example:
 
 ### Write it!
 
-Write the code for your selected program in the 6502 Emulator (ADD LINK).
+Write the code for your selected program in the [6502 Emulator](/G-6502/6502-emulator.md).
 
 It can be helpful and fun to write this code with one or two other people in a live session. Acknowledge each person's input, and add your own customizations or tweaks.
 
@@ -97,10 +97,10 @@ Write up your adventures in your blog. Remember to include the source code, some
 
 Ensure that your program works and is free from major bugs. Document any limitations or remaining minor bugs.
 
-Make sure that others (including your prof!) can run you code by pasting it into the emulator (ADD LINK) or loading it from a file (e.g., public git repository or downloadable file).
+Make sure that others (including your prof!) can run you code by pasting it into the [emulator](/G-6502/6502-emulator.md) or loading it from a file (e.g., public git repository or downloadable file).
 
-Remember to follow the Blog Guidelines (ADD LINK) as you write.
+Remember to follow the [Blog Guidelines](/D-ExtraResources/blog-guidelines.md) as you write.
 
 ### Examples
 
-For some examples of games and demos, take a look at the http://6502asm.com/ website - which uses an earlier version of the 6502 emulator. The Examples selector on that page has some interesting code. You can copy-and-paste any of those examples into the SPO600 6502 Emulator (ADD LINK) at http://6502.cdot.systems/
+For some examples of games and demos, take a look at the http://6502asm.com/ website - which uses an earlier version of the 6502 emulator. The Examples selector on that page has some interesting code. You can copy-and-paste any of those examples into the SPO600 [6502 Emulator](/G-6502/6502-emulator.md) at http://6502.cdot.systems/
