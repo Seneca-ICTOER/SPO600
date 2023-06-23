@@ -58,7 +58,7 @@ x86_64 also defines a set of large registers for floating-point and single-instr
 
 ### Starter Kit
 
-These instructions are sufficient to complete the SPO600 Assembler Lab (ADD LINK) (GAS syntax):
+These instructions are sufficient to complete the [SPO600 Assembler Lab](/B-Labs/lab4.md) (GAS syntax):
 
 ```assembly
 add %r10,%r11    // add r10 and r11, put result in r11
