@@ -7,7 +7,7 @@ description: Project
 
 # Project
 
-This page describes the SPO600 (ADD LINK) project in the Fall 2022 semester.
+This page describes the [SPO600](../landing-page.md) project in the Fall 2022 semester.
 
 ## Overview
 
