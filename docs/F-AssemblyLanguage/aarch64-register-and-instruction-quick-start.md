@@ -7,7 +7,7 @@ description: AArch64 Register and Instruction Quick Start
 
 # AArch64 Register and Instruction Quick Start
 
-This page contains very basic information on the AArch64 mode of the ARMv8 (ADD LINK) architecture: the register (ADD LINK) layout and naming and the some basic instructions.
+This page contains very basic information on the AArch64 mode of the [ARMv8](/H-ARM/arm-v8.md) architecture: the register (ADD LINK) layout and naming and the some basic instructions.
 
 ## Registers
 
@@ -43,7 +43,7 @@ Aarch64 also defines a set of large registers for floating-point and single-inst
 
 ### Starter Kit
 
-These instructions are sufficient to complete the SPO600 Assembler Lab (ADD LINK); remember to replace the generic register names with ones that specify width (for example, replace "r0" with "x0" or "w0").
+These instructions are sufficient to complete the [SPO600 Assembler Lab](/B-Labs/lab4.md); remember to replace the generic register names with ones that specify width (for example, replace "r0" with "x0" or "w0").
 
 ```assembly
 add r0,r1,r2      // load r0 with r1+r2
