@@ -7,7 +7,7 @@ description: Personal AArch64 Systems
 
 # Personal AArch64 Systems
 
-There are a few affordable ARMv8 (ADD LINK) AArch64 systems becoming available.
+There are a few affordable [ARMv8](/H-ARM/arm-v8.md) AArch64 systems becoming available.
 
 ## Raspberry Pi
 
