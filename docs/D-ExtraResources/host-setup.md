@@ -7,7 +7,7 @@ description: Host Setup
 
 # Host Setup
 
-For SPO600 (ADD LINK), remote access to [Linux systems](./servers.md) is provided. Howerver, it is strongly recommended that you have access to a personal x86_64 (64-bit AMD/Intel) or ARM64 Linux system. I recommend running the latest release of [Fedora](http://get.fedoraproject.org/) to match the [class ARM servers](./servers.md), and because Fedora has a very up-to-date version of the gcc compiler which supports SVE2 (ADD LINK).
+For [SPO600](../landing-page.md), remote access to [Linux systems](./servers.md) is provided. Howerver, it is strongly recommended that you have access to a personal x86_64 (64-bit AMD/Intel) or ARM64 Linux system. I recommend running the latest release of [Fedora](http://get.fedoraproject.org/) to match the [class ARM servers](./servers.md), and because Fedora has a very up-to-date version of the gcc compiler which supports [SVE2](/H-ARM/sve2.md) (ADD LINK).
 
 **This system could be set up:**
 
