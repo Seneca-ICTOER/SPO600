@@ -122,7 +122,7 @@ Loop: 9
 
 In order to print the loop index value, you will need to convert from an integer to digit character. In ASCII/ISO-8859-1/Unicode UTF-8, the digit characters are in the range 48-57 (0x30-0x39). You will also need to assemble the message to be printed for each line - you can do this by writing the digit into the message buffer before outputting it to stdout, which is probably the best approach, or you can perform a sequence of writes for the thee parts of the message ('Loop: ', number, '\n'). You may want to refer to the manpage for `ascii`.
 
-**6502 Implementation:** For reference, here is a [6502 implementation of this loop](/G-6502/6502-counting-loop-example-code.md).
+**6502 Implementation:** For reference, here is a [6502 implementation of this loop](/G-6502/6502-counting-loop-example.md).
 
 3. Repeat the previous step for x86_64.
 
