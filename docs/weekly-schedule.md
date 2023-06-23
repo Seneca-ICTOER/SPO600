@@ -20,7 +20,7 @@ Please follow the links in each cell for additional detail which will be added b
 | Class 1 (Wednesday 11:40-1:25) |	Class 2 (Friday 11:40-1:25) |	Deliverables/Evaluation |
 | --- | --- | --- |
 | Introduction to the Course, Introduction to the Problem, and Computer Architecture Basics (ADD LINK) |	Binary Representation of Data (ADD LINK) | Follow the [SPO600 Communication Tools](/D-ExtraResources/communication-tools.md)  set-up instructions. |
-|  |	 | Optional (strongly recommended): [Set up a personal Linux system](/D-ExtraResources/host-setup-md) |
+|  |	 | Optional (strongly recommended): [Set up a personal Linux system](/D-ExtraResources/host-setup.md) |
 |  |  | Optional: If you have an AArch64 development board (such as a Raspberry Pi 4, Raspberry Pi 400, or [96Boards](http://96boards.org/) device), consider installing a 64-bit Linux operating system such as Fedora on it. |
 |  |  | Start work on [Lab 1](/B-Labs/lab1.md). Blog your work. |
 
