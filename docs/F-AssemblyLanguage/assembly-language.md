@@ -15,7 +15,7 @@ Each instruction is represented by a short mnemonic word such as "LDR" for _Load
 
 ### x86
 
-Here is a "Hello, World!" program written for an x86_64 Linux system using the [GNU Assembler (gas/as)](https://sourceware.org/binutils/docs/as/) syntax (which is the main assembler used in open source projects such as the Linux kernel, as well as the SPO600 (ADD LINK) course), using Linux [Syscalls](./syscalls.md):
+Here is a "Hello, World!" program written for an x86_64 Linux system using the [GNU Assembler (gas/as)](https://sourceware.org/binutils/docs/as/) syntax (which is the main assembler used in open source projects such as the Linux kernel, as well as the [SPO600](../landing-page.md) course), using Linux [Syscalls](./syscalls.md):
 
 ```assembly
 .text
@@ -141,4 +141,4 @@ msg:
 - [Assembler Basics](./assembler-basics.md)
 - ["Hello World" in many different types of assembler](http://leto.net/code/asm/hw_assembler.php)
 - [x86_64 Register and Instruction Quick Start](./x86-64-register-and-instruction-quick-start.md)
-- [aarch64 Register and Instruction Quick Start](aarch64-register-and-instruction-quick-start.md)
+- [aarch64 Register and Instruction Quick Start](./aarch64-register-and-instruction-quick-start.md)
