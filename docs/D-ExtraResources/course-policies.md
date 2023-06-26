@@ -9,7 +9,7 @@ description: Course Policies
 
 Course policies for SPO600:
 
-- Each student is expected to sign the Open Source Professional Option Student Agreement.
+- Each student is expected to sign the [Open Source Professional Option Student Agreement](./open-source-pro-option-student-agreement.md).
 - The [Seneca Academic Policy](http://www.senecac.on.ca/academic-policy/) applies in full to this course. With respect to Section 9, [Academic Honesty](http://www.senecac.on.ca/academic-policy/acpol-09.html), it is expected that code will be reused and extended within the open source context -- however, all licenses must be respected, and you must not claim authorship of work which is not your own.
 - Project and lab work is submitted by blogging. Please blog frequently (at least 1-2 times per week), following the [Blog Guidelines](./blog-guidelines.md). Ensure that your blog is included in the [SPO600 Participants](./participants-table.md) table and [Telescope](https://telescope.cdot.systems/).
 - Release dates (Project stages) are firm. Please ensure that you release what is required on the release date / project stage due date. If your work is not complete, please release what you have completed by that date (i.e., DO NOT release late -- release incomplete instead).
