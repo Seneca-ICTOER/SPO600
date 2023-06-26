@@ -30,7 +30,7 @@ There are thirteen [6502 Addressing Modes](./6502-addressing-modes.md). All of t
 
 ## Registers
 
-Most of these instructions work with registers (ADD LINK). Refer to the [6502 page, Register section](./6502.md#registers) for details on the 6502's internal registers.
+Most of these instructions work with [registers](/E-ComputerArchitecture/register.md). Refer to the [6502 page, Register section](./6502.md#registers) for details on the 6502's internal registers.
 
 ## Performance
 
@@ -44,7 +44,7 @@ Remember that the Program Counter (PC register) contains a pointer to the next i
 
 You can find the execution time in the instruction charts found in the [Resources](#resources) section below.
 
-To convert the number of cycles to time, multiply the cycles by the time between system clock (ADD LINK) pulses. Many 6502 systems operated at 1 MHz (1 million operations per second), and therefore 1 cycle corresponded to 1 millionth of a second, or 1 microsecond (uS). Therefore, an instruction that took 4 clock cycles would take 4 uS to execute.
+To convert the number of cycles to time, multiply the cycles by the time between system [clock](/E-ComputerArchitecture/clock.md) pulses. Many 6502 systems operated at 1 MHz (1 million operations per second), and therefore 1 cycle corresponded to 1 millionth of a second, or 1 microsecond (uS). Therefore, an instruction that took 4 clock cycles would take 4 uS to execute.
 
 ## Instructions by Category
 
@@ -209,7 +209,7 @@ BVC ; branch if overflow clear (V flag is clear)
 BVS ; branch if overflow set (V flag is set)
 ```
 
-Note that the operand for conditional branch instructions is a relative offset - a signed 8-bit value (in the range -128 to +127) that is added to the current PC. When writing assembler (or viewing disassembled code), the operand is written as an absolute address or label, but the actual machine language (ADD LINK) code uses the relative addressing mode. For this reason, a branch that is too far will not assemble and will produce an error message.
+Note that the operand for conditional branch instructions is a relative offset - a signed 8-bit value (in the range -128 to +127) that is added to the current PC. When writing assembler (or viewing disassembled code), the operand is _written_ as an absolute address or label, but the actual [machine language](/E-ComputerArchitecture/machine-language.md) code uses the relative addressing mode. For this reason, a branch that is too far will not assemble and will produce an error message.
 
 ### Manipulating Flags
 

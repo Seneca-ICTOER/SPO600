@@ -7,7 +7,7 @@ description: AArch64 Register and Instruction Quick Start
 
 # AArch64 Register and Instruction Quick Start
 
-This page contains very basic information on the AArch64 mode of the [ARMv8](/H-ARM/arm-v8.md) architecture: the register (ADD LINK) layout and naming and the some basic instructions.
+This page contains very basic information on the AArch64 mode of the [ARMv8](/H-ARM/arm-v8.md) architecture: the [register](/E-ComputerArchitecture/register.md) layout and naming and the some basic instructions.
 
 ## Registers
 
@@ -80,8 +80,8 @@ udiv r0,r1,r2     // unsigned - divide r1 by r2, places quotient into r0 - remai
 
 Note the syntax:
 
-- Register (ADD LINK) names are not prefixed.
-- Immediate values (ADD LINK) are not prefixed with a character (they may be prefaced with # if desired).
+- [Register](/E-ComputerArchitecture/register.md) names are not prefixed.
+- [Immediate values](/E-ComputerArchitecture/immediate-value.md) are not prefixed with a character (they may be prefaced with # if desired).
 - Indirect memory access is indicated by \[square brackets\].
 - Hexadecimal values are indicated by a 0x prefix.
 - Character values are indicated by quotation marks. Escapes (such as '\n') are permitted.

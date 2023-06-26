@@ -62,7 +62,7 @@ In this code, the `BNE LOOP` line is assembled as:
 d0 fb     ; BNE $0600
 ```
 
-Where $FB represents -5 in two's compliment (ADD LINK) notation, since the processor needs to branch back 5 bytes from the current PC location (which is the byte after the end of the BNE instruction).
+Where $FB represents -5 in [two's compliment](/E-ComputerArchitecture/signed.md#twos-compliment) notation, since the processor needs to branch back 5 bytes from the current PC location (which is the byte after the end of the BNE instruction).
 
 Because branches are always relative, code that uses only branches is called Position Independent Code (PIC) and can be easily relocated in memory. Therefore, some programmers prefer to use a forced branch instead of a jump, using an approach like this:
 

@@ -7,7 +7,7 @@ description: 6502 Addressing Modes
 
 # 6502 Addressing Modes
 
-The [6502](./6502.md) processor has 13 Addressing Modes (ADD LINK), which affect how the arguments for instructions are accessed.
+The [6502](./6502.md) processor has 13 [Addressing Modes](/E-ComputerArchitecture/addressing-modes.md), which affect how the arguments for instructions are accessed.
 
 For example, the Load Accumulator `LDA` instruction can load the accumulator from different sources:
 

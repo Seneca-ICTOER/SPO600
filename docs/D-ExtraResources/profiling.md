@@ -24,8 +24,8 @@ Resources consumption that can be analyzed during profiling include:
 
 Most profiling systems determine resource usage on a per-function basis. Data may be gathered through two different techniques:
 
-1. Sampling - interrupting the program frequently (such as 10 000 times/second) and determining which function is currently executing (by comparing the program counter (ADD LINK) to the debuginfo of the program).
-2. Instrumentation - adding code to the binary or using debug controls (such as breakpoints (ADD LINK)) to determine when and how often specific actions take place, such as entry/exit to/from a function/procedure/method.
+1. Sampling - interrupting the program frequently (such as 10 000 times/second) and determining which function is currently executing (by comparing the [program counter](/E-ComputerArchitecture/register.md#program-counter) to the debuginfo of the program).
+2. Instrumentation - adding code to the binary or using debug controls (such as [breakpoints](/E-ComputerArchitecture/debugger.md)) to determine when and how often specific actions take place, such as entry/exit to/from a function/procedure/method.
 
 ## Profiling Tools
 
@@ -73,8 +73,8 @@ To record performance data, run perf with the `record` argument: `perf record na
 
 **Function vs. Method vs. Procedure**
 
-In procedural languages, called code blocks are often called **functions**. When programming in an object-oriented language, called code blocks may be called **methods**. Older or more general documentation may refer to called code blocks as **procedures**. The distinction between functions, methods, and procedures is effectively one of terminology and "packaging" only - at the machine code (ADD LINK) level, the distinction effectively disappears.
+In procedural languages, called code blocks are often called **functions**. When programming in an object-oriented language, called code blocks may be called **methods**. Older or more general documentation may refer to called code blocks as **procedures**. The distinction between functions, methods, and procedures is effectively one of terminology and "packaging" only - at the [machine code](/E-ComputerArchitecture/machine-language.md) level, the distinction effectively disappears.
 
 ### Optional Lab
 
-The SPO600 Profiling Lab (ADD LINK) was used in previous semesters in the SPO600 course. It is not a required lab in the current version of the course.
+The [SPO600 Profiling Lab]() (ADD LINK) was used in previous semesters in the SPO600 course. It is not a required lab in the current version of the course.

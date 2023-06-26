@@ -7,7 +7,7 @@ description: X86 64 Register and Instruction Quick Start
 
 # X86 64 Register and Instruction Quick Start
 
-This page contains very basic information on the x86_64 architecture: the register (ADD LINK) layout and naming and the some basic instructions.
+This page contains very basic information on the x86_64 architecture: the [register](/E-ComputerArchitecture/register.md) layout and naming and the some basic instructions.
 
 ## Registers
 
@@ -86,8 +86,8 @@ syscall          // invoke a syscall (in 32-bit mode, use "int $0x80" instead)
 
 Note the syntax:
 
-- Register (ADD LINK) names are prefixed by %
-- Immediate values (ADD LINK) are prefixed by $
+- [Register](/E-ComputerArchitecture/register.md) names are prefixed by %
+- [Immediate values](/E-ComputerArchitecture/immediate-value.md) are prefixed by $
 - Indirect memory access is indicated by (parenthesis).
 - Hexadecimal values are indicated by a 0x prefix.
 - Character values are indicated by quotation marks. Escapes (such as '\n') are permitted.

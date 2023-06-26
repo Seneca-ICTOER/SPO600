@@ -7,9 +7,9 @@ description: Assembly Language
 
 # Assembly Language
 
-_Assembly language_ is a [symbolic](./symbol.md) representation of machine language (ADD LINK). It is therefore very architecture-specific (ADD LINK).
+_Assembly language_ is a [symbolic](./symbol.md) representation of [machine language](/E-ComputerArchitecture/machine-language.md). It is therefore very [architecture-specific](/E-ComputerArchitecture/portable.md).
 
-Each instruction is represented by a short mnemonic word such as "LDR" for _Load Register_, "MOV" for _move_, or "MUL" for _multiply_, followed by (optional) arguments. The addressing mode (ADD LINK) is implied by the format of the arguments. Different assemblers (ADD LINK) use slightly different syntax.
+Each instruction is represented by a short mnemonic word such as "LDR" for _Load Register_, "MOV" for _move_, or "MUL" for _multiply_, followed by (optional) arguments. The [addressing mode](/E-ComputerArchitecture/addressing-mode.md) is implied by the format of the arguments. Different [assemblers](/E-ComputerArchitecture/assembler.md) use slightly different syntax.
 
 ## Examples
 

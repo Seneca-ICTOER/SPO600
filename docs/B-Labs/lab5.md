@@ -29,7 +29,7 @@ Six programs are provided, each with a different approach to the problem, named 
 
 These are the six programs:
 
-1. vol0.c is the basic or naive algorithm. This approach multiplies each sound sample by the volume scaling factor, casting from signed 16-bit integer to floating point and back again. Casting between integer and floating point can be expensive (ADD LINK) operations.
+1. vol0.c is the basic or naive algorithm. This approach multiplies each sound sample by the volume scaling factor, casting from signed 16-bit integer to floating point and back again. Casting between integer and floating point can be [expensive](/E-ComputerArchitecture/expensive.md) operations.
 2. vol1.c does the math using fixed-point calculations. This avoids the overhead of casting between integer and floating point and back again.
 3. vol2.c pre-calculates all 65536 different results, and then looks up the answer for each input value.
 4. vol3.c is a dummy program - it doesn't scale the volume at all. It can be used to determine some of the overhead of the rest of the processing (besides scaling the volume) done by the other programs.

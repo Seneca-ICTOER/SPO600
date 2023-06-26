@@ -33,7 +33,7 @@ Here are some common C optimizations. For each optimization, an input code snipp
 
 Note:
 
-- There are many other kinds of optimizations, some of which operate at the object code (ADD LINK) level.
+- There are many other kinds of optimizations, some of which operate at the [object code](/E-ComputerArchitecture/machine-language.md) level.
 - Many of these optimizations cannot be performed when code has a side effect -- for example, the direction of a loop can sometimes be reversed without impact if the loop contains only calculations, but cannot be reversed if the loop contains I/O operations (such as printf()). Tracking these conditions can become complex!
 
 ### Code Rewriting Optimizations
@@ -42,7 +42,7 @@ These optimizations involve rewriting code for performance or space. Although th
 
 #### Strength Reduction
 
-Certain operation are expensive (ADD LINK) in terms of the processor time they consume. Replacing these expensive operations with cheaper (simpler, faster) operations is called _strength reduction_.
+Certain operation are [expensive](/E-ComputerArchitecture/expensive.md) in terms of the processor time they consume. Replacing these expensive operations with cheaper (simpler, faster) operations is called _strength reduction_.
 
 This is a simple loop that counts to ten; each iteration displays the loop index multiplied by 6:
 
@@ -593,7 +593,7 @@ There are many cases where the _condition_ is likely to be false almost all of t
 
 In a normal cache-load and prefetch pattern, the code for the conditional action is loaded into cache and the early stages of the processor's pipeline system and may even be speculatively executed while the condition is evaluated. If the condition is almost always false, its would be more efficient to load the _following code_ instead of the _action code_, so the compiler will rearrange the code blocks to place the _action_ code into another area of memory.
 
-In order to do this, the compiler needs to know that the condition is almost always false. The programmer can state this using Compiler Intrinsics (ADD LINK) such as the GCC [\_\_builtin_expect function](https://gcc.gnu.org/onlinedocs/gcc/Other-Builtins.html#index-fprofile-arcs-3857), or the compiler can discover this by code analysis or [PGO](./profile-guided-optimization.md).
+In order to do this, the compiler needs to know that the condition is almost always false. The programmer can state this using [Compiler Intrinsics](/E-ComputerArchitecture/compiler-intrinsics.md) such as the GCC [\_\_builtin_expect function](https://gcc.gnu.org/onlinedocs/gcc/Other-Builtins.html#index-fprofile-arcs-3857), or the compiler can discover this by code analysis or [PGO](./profile-guided-optimization.md).
 
 #### Instruction Selection
 
@@ -605,7 +605,7 @@ The x86 instruction set in particular has some quirks that the chip designers ha
 
 ## Debugging with Optimizations Enabled
 
-Using low-level debugging (ADD LINK) tools with code that has been highly optimized can be very challenging, because the object code (ADD LINK) may bear little resemblance to the source code. However, some errors may only surface when optimization is enabled - for example, optimized code may perform an operation before a device is ready to receive data. Debugging the unoptimized code may not reveal the problem, because the extra execution time may eliminate the error.
+Using low-level [debugging](/E-ComputerArchitecture/debugger.md) tools with code that has been highly optimized can be very challenging, because the [object code](/E-ComputerArchitecture/machine-language.md) may bear little resemblance to the source code. However, some errors may only surface when optimization is enabled - for example, optimized code may perform an operation before a device is ready to receive data. Debugging the unoptimized code may not reveal the problem, because the extra execution time may eliminate the error.
 
 The gcc option `-Og` attempts to balance optimization with the debugging experience, by enabling only optimizations that will not excessively convolute the debugging process.
 

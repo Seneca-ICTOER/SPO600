@@ -7,7 +7,7 @@ description: Information for Prospective Students
 
 # Information for Prospective Students
 
-**Interested in taking SPO600 (ADD LINK) -- Software Portability and Optimization?**
+**Interested in taking [SPO600](../landing-page.md) -- Software Portability and Optimization?**
 
 Here is some background information you may find useful:
 
@@ -78,4 +78,4 @@ The [Centre for Development of Open Technology](http://cdot.senecacollege.ca/) (
 Have more questions about SPO600?
 Please contact Professor Chris Tyler (via email at chris.tyler@senecacollege.ca).
 
-Return to the SPO600 homepage. (ADD LINK)
+Return to the [SPO600 homepage](../landing-page.md).

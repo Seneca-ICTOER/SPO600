@@ -137,7 +137,7 @@ Note that the `-g` option assembles the program with symbolic debugging informat
 
 ### Instruction Set Architecture Information
 
-To get started with specific instruction set architectures (ADD LINK), see:
+To get started with specific [instruction set architectures](/E-ComputerArchitecture/instruction-set-architecture.md), see:
 
 - [x86_64 Register and Instruction Quick Start](./x86-64-register-and-instruction-quick-start.md)
 - [aarch64 Register and Instruction Quick Start](./aarch64-register-and-instruction-quick-start.md)

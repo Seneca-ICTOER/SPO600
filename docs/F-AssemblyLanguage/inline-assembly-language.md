@@ -170,7 +170,7 @@ asm("..."
 
 If memory is altered by the asm code, the string "memory" should be added to the clobber list. This will cause the compiler to mistrust values that were loaded from memory before the assembly language code was executed -- for example, if register r12 is loaded with an integer from memory before the assembly code is executed, it will be reloaded from memory afterward, because the value in memory may have been modified by the assembly code. If a memory clobber is not specified, the compiler will assume that values previously loaded from memory still match the values in memory. In most cases, the `volatile` keyword should be used along with the memory clobber flag.
 
-If the condition code (status register or flag register) (ADD LINK) is altered, the string "cc" should be added to the clobber list.
+If the [condition code (status register or flag register)](/E-ComputerArchitecture/register.md#status-register) is altered, the string "cc" should be added to the clobber list.
 
 ## Resources
 
