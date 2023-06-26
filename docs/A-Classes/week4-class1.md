@@ -15,8 +15,8 @@ description: Week 4 - Class 1
 
 ## Reading Resources
 
-- [Compiler Optimizations](/D-Extra-Resources/compiler-optimizations.md)
+- [Compiler Optimizations](/D-ExtraResources/compiler-optimizations.md)
 - Connecting to course servers
-  - [SPO600 Servers](/D-Extra-Resources/servers.md)
-  - [SSH](/D-Extra-Resources/ssh.md)
-  - [Screen utility](/D-Extra-Resources/screen-tutorial.md) - allows disconnection/reconnection to remote host
+  - [SPO600 Servers](/D-ExtraResources/servers.md)
+  - [SSH](/D-ExtraResources/ssh.md)
+  - [Screen utility](/D-ExtraResources/screen-tutorial.md) - allows disconnection/reconnection to remote host
