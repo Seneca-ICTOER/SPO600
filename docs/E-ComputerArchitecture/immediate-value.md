@@ -7,7 +7,7 @@ description: Immediate Value
 
 # Immediate Value
 
-An immediate value in [machine code](./machine-language.md) is a constant or literal value argument. For example, the [6502 assembly](/G-6502/6502-emulator.md) instruction:
+An immediate value in [machine code](./machine-language.md) is a constant or literal value argument. For example, the 6502 [assembly](/F-AssemblyLanguage/assembly-language.md) instruction:
 
 ```text
 LDA #$80
