@@ -17,8 +17,9 @@ description: Landing Page for SPO600
 
 Software is sometimes written to work on a specific computer architecture (type of computer), such as on Intel-compatible x86_64 PCs, or IBM Z-series mainframes. This course deals with the challenge of making software compatible with a new architecture in one of two ways:
 
-Adding additional architecture-specific code so that the software can run on the new architecture ('porting' the software), or
-Removing the architecture-specific code and replacing it with architectural-neutral code, so that it can run on a variety of system architectures (making the software 'portable').
+1. Adding additional architecture-specific code so that the software can run on the new architecture ('porting' the software), or
+2. Removing the architecture-specific code and replacing it with architectural-neutral code, so that it can run on a variety of system architectures (making the software 'portable').
+
 In either case, software can be altered or it can be built in such a way that performance is optimized - so that runs faster, or it uses less memory or other resources. In order to test optimizations, we'll be performing benchmark testing before and after modification.
 
 SPO600 is a professional option in the [Seneca School of Information and Communication Technology](http://ict.senecac.on.ca/) [CTY](https://ict.senecacollege.ca/academic-programs/cty/overview) and [CPA](https://ict.senecacollege.ca/academic-programs/cpa/overview) programs. First offered: Winter 2014.
