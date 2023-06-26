@@ -7,7 +7,7 @@ description: Course Policies
 
 # Course Policies
 
-Course policies for SPO600:
+Course policies for [SPO600](../landing-page.md):
 
 - Each student is expected to sign the [Open Source Professional Option Student Agreement](./open-source-pro-option-student-agreement.md).
 - The [Seneca Academic Policy](http://www.senecac.on.ca/academic-policy/) applies in full to this course. With respect to Section 9, [Academic Honesty](http://www.senecac.on.ca/academic-policy/acpol-09.html), it is expected that code will be reused and extended within the open source context -- however, all licenses must be respected, and you must not claim authorship of work which is not your own.
