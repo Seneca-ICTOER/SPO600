@@ -77,4 +77,4 @@ In procedural languages, called code blocks are often called **functions**. When
 
 ### Optional Lab
 
-The [SPO600 Profiling Lab]() (ADD LINK) was used in previous semesters in the SPO600 course. It is not a required lab in the current version of the course.
+The SPO600 Profiling Lab (ADD LINK) was used in previous semesters in the SPO600 course. It is not a required lab in the current version of the course.
