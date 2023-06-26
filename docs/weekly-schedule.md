@@ -110,12 +110,12 @@ Please follow the links in each cell for additional detail which will be added b
 
 | Class 1 (Wednesday 11:40-1:25) |	Class 2 (Friday 11:40-1:25) |	Deliverables/Evaluation |
 | --- | --- | --- |
-| Enhancing Your Project (ADD LINK) |	Project Discussion (ADD LINK) | Blog about project work |
+| [Enhancing Your Project](/A-Classes/week13-class1.md) |	[Project Discussion](/A-Classes/week13-class2.md) | Blog about project work |
 |  |  | Project Stage 2 due Thursday December 8 at Noon |
 
 ## Week 14
 
 | Class 1 (Wednesday 11:40-1:25) |	Class 2 (Friday 11:40-1:25) |	Deliverables/Evaluation |
 | --- | --- | --- |
-| Future Directions in Architecture (ADD LINK) |	No Class | [Project Stage 3](/C-Projects/project.md#stage-3) |
+| [Future Directions in Architecture](/A-Classes/week14-class1.md) |	No Class | [Project Stage 3](/C-Projects/project.md#stage-3) |
 |  |  | December blog posts |
