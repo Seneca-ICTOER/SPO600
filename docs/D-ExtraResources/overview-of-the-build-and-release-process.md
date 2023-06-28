@@ -15,7 +15,7 @@ The steps involved in each Build and Release (B&R) process vary according to the
 
 The steps generally include some combination of these:
 
-- **Version Control** - Most B&R processes take input from a version control system (VCS), which is used to track the software as it is developed. Common version control systems include the Concurrent Version System (CVS), Subversion (SVN), Mercurial (hg), Git, and Bazaar (bz). At this step in the build process, the code is checked out from the VCS.
+- **Version Control** - Most B&R processes take input from a version control system (VCS), which is used to track the software as it is developed. Common version control systems include the Concurrent Version System (CVS), Subversion (SVN), Mercurial (hg), Git, and Bazaar (bz). At this step in the build process, the code is _checked_ out from the VCS.
 - **Dependency Resolution** - The required build dependencies, both in terms of tools and libraries, are determined and satisfied.
 - **Compilation** - The source files are compiled into binary files. This applies to software, which is compiled from source code written in a language such as C into machine code, but also applies to other resources such as fonts, graphics, game levels, documentation, and so forth, which are similarly converted from a source input format to a machine-readable output format, ready for use.
 - **Testing** (or QA) - The software is tested, often using a combination of automated test suites and manual tests. Testing may be performed at multiple points in the process.
