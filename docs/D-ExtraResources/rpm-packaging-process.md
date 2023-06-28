@@ -102,7 +102,7 @@ Some spec files may produce multiple packages -- for example, they may produce s
 
 ## Testing the RPM
 
-The rpmlint tool tests spec files, source RPMs, and binary RPMs to verify that they were created in compliance with the Fedora packaging guidelines.
+The _rpmlint_ tool tests spec files, source RPMs, and binary RPMs to verify that they were created in compliance with the Fedora packaging guidelines.
 
 - Test the spec file: `rpmlint ~/rpmbuild/SPECS/packagename*`
 - Test the source RPM: `rpmlint ~/rpmbuild/SRPMS/packagename*.src.rpm`
