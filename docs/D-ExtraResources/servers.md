@@ -29,7 +29,7 @@ ssh username@israel.cdot.systems
 
 ### x86_64: portugal.cdot.systems
 
-The x86_64 server system is known as _portugal_. If you're using a command-line ssh system, you can access xerxes with a command such as this:
+The x86\_64 server system is known as _portugal_. If you're using a command-line ssh system, you can access xerxes with a command such as this:
 
 ```bash
 ssh username@portugal.cdot.systems
