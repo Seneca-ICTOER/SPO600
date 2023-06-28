@@ -50,13 +50,13 @@ Documentation for the C wrappers for most syscalls can be found in the manpage f
 
 Syscall numbers are defined in <asm/unistd.h\> (`/usr/include/asm/unistd.h`). If you examine this file, you'll find that it includes different files depending on the platform, because the syscall numbers are platform-specific (on newer platforms, there has been an attempt to use consistent syscall numbers). In this included file, you will find macros for each syscall named `__NR_syscall` which identifies the number for each syscall. For example, aarch64 includes the file `/usr/include/asm-generic/unistd.h`, which lists this macro for the _write_ syscall:
 
-```assembly
+```c
 #define __NR_write 64
 ```
 
 But on x86_64 the macro definition is taken from `/usr/include/asm/unistd_64.h`:
 
-```assembly
+```c
 #define __NR_write 1
 ```
 
