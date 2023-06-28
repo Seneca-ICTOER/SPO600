@@ -7,7 +7,7 @@ description: Communication Tools
 
 # Communication Tools
 
-SPO600 students use a number of communication tools that have been built and heavily adopted by Open Source communities. This page contains set-up instructions for some of these communication tools.
+[SPO600](../landing-page.md) students use a number of communication tools that have been built and heavily adopted by Open Source communities. This page contains set-up instructions for some of these communication tools.
 
 ## Summary: What you Need to Do
 
@@ -40,11 +40,11 @@ See the Open Source@Seneca [Blog Guidelines](./blog-guidelines.md) for informati
 
 ## SSH
 
-[SSH](./ssh.md) is a tool that provides remote access to a computer system. This can include command-line access, but also file transfers, graphical user interface (GUI) access, and secure tunnels to remote services.
+[SSH](./ssh.md) is a tool that provides remote access to a computer system. This can include command-line access, but also file transfers, graphical user interface (GUI) access, and _secure tunnels_ to remote services.
 
 ### Creating a Public/Private Key Pair
 
-**OpenSSH Assumed:** These instructions assume a Linux, Windows 10, or Mac OS/X system running OpenSSH. Other SSH clients will have different procedures, and you'll need to check that the key produced is in OpenSSH format (you can convert key types using the ssh-keygen command on a Linux system such as Matrix if needed).
+**OpenSSH Assumed:** These instructions assume a Linux, Windows 10, or Mac OS/X system running OpenSSH. Other SSH clients will have different procedures, and you'll need to check that the key produced is in OpenSSH format (you can convert key types using the `ssh-keygen` command on a Linux system such as Matrix if needed).
 
 1. Enter this command:
 
