@@ -44,7 +44,7 @@ Debian/Ubuntu supports AArch32 binaries on ARMv8 via a multiarch mechanism simil
 
 Fedora/Red Hat intentionally does not support AArch32 binaries on ARMv8.
 
-The value of supporting AArch32 binaries on ARMv8 is controversial. The argument for supporting them is for maximum backward-compatibility; the argument against supporting them is that there are very few proprietary/closed-source 32-bit binaries available, they may require recompilation anyways (since AArch32 supports a slight subset of the ARMv7 instruction set), and anything that is a 32-bit open source ARM program can readily be rebuilt for AArch64.
+The value of supporting AArch32 binaries on ARMv8 is controversial. The argument **for** supporting them is for maximum backward-compatibility; the argument **against** supporting them is that there are very few proprietary/closed-source 32-bit binaries available, they may require recompilation anyways (since AArch32 supports a slight subset of the ARMv7 instruction set), and anything that is a 32-bit open source ARM program can readily be rebuilt for AArch64.
 
 ## Boot Systems for ARMv8 in Linux
 
@@ -94,7 +94,7 @@ ARM licenses their technology at several different levels:
 
 Most ARMv8 implementations are a System-On-a-Chip (SoC), which means that the processor cores, memory controller, interrupt controller, input/output (IO) bus adapters, and graphics system/GPU are all on a single chip. In some mobile chips, radio (WiFi/LTE/Bluetooth/GPS) systems may also be integrated into the SoC. This means that only the PHY (physical level circuits), RAM, flash, and power controller need to be added to create a fully-functioning system.
 
-Most SoCs offer more features than are used in any one system and more features than can be exposed on the pins which are physically present on the chip. A pin multiplexor system, or PinMux, is used to select which signals are currently exposed on the SoC's pins. For example, a given group of pins could be used for an SPI serial interface, or an I2C serial interface, or as general-purpose input/output (GPIO) connections, but are only connected to one of those functions at a time.
+Most SoCs offer more features than are used in any one system and more features than can be exposed on the pins which are physically present on the chip. A pin multiplexor system, or PinMux, is used to select which signals are currently exposed on the SoC's pins. For example, a given group of pins could be used for an SPI serial interface, or an ${I^{2}C}$ serial interface, or as general-purpose input/output (GPIO) connections, but are only connected to one of those functions at a time.
 
 In addition, a number of SoCs use high-speed serial interfaces for multiple purposes -- a pool of 40 multi-gigabit-per-second serial interfaces might be provided, for example, and it is up to the board designer to decide how many of those interfaces to use as the lanes of a PCIe bus, gigabit (or faster) ethernet ports, or as SATA ports.
 
