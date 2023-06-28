@@ -50,8 +50,8 @@ Useful options include:
 | -C |	Enable compression (gzip) to enhance performance |	ssh -C _user_@_host_ |
 | -X or -Y |	Turn on X11 forwarding (it is recommended that -C also be used) - See X11 Tunnelling, below |	ssh -X -C _user_@_host_ |
 | -L or -R |	Turns on tunnelling |	(See Tunnelling section) |
-| -i identityfile |	Specifies the private key file to be used (default: all private keys in ~/.ssh) |	ssh -i ~/.ssh/id_dsa _user_@_host_ |
-| -p portnumber |	Connect to the TCP/IP port portnumber rather than the default SSH port 22. |	ssh -p 2200 _user_@_host_ |
+| -i _identityfile_ |	Specifies the private key file to be used (default: all private keys in ~/.ssh) |	ssh -i ~/.ssh/id_dsa _user_@_host_ |
+| -p _portnumber_ |	Connect to the TCP/IP port portnumber rather than the default SSH port 22. |	ssh -p 2200 _user_@_host_ |
 
 ### Examples
 
@@ -97,8 +97,8 @@ The arguments have the same meaning, but are executed one the opposite hosts, so
 
 - To connect port 8080 on the local computer to port 80 on the server winter, using the account sam: `ssh -L 8080:localhost:80 sam@winter`
   - After the tunnel above was put in place, you could access http://localhost:8080/ and be connected to the webserver (port 80) on the host _winter_
-- To connect port 2000 on the local computer to port 1234 on the host spring, which is on the same LAN as the SSH server winter: `ssh -R 2000:spring:1234 sam@winter`
-- To connect port 3000 on the server winter to port 5900 on the local computer: `ssh -L 3000:localhost:5900 sam@winter`
+- To connect port 2000 on the local computer to port 1234 on the host spring, which is on the same LAN as the SSH server _winter_: `ssh -R 2000:spring:1234 sam@winter`
+- To connect port 3000 on the server _winter_ to port 5900 on the local computer: `ssh -L 3000:localhost:5900 sam@winter`
 
 ## Using SSH for File Transfer
 
@@ -106,7 +106,7 @@ SSH provides two mechanisms for file transfer: _scp_ and _sftp_.
 
 ### scp - Secure Copy
 
-The scp command functions like the normal Unix/Linux copy (cp) command, but accepts a hostname (and optional user ID) prepended to a filename for copying to/from remote systems:
+The _scp_ command functions like the normal Unix/Linux copy (cp) command, but accepts a hostname (and optional user ID) prepended to a filename for copying to/from remote systems:
 
 ```bash
 scp [user@]host:sourcefilename [user@]host:destinationfilename
@@ -149,7 +149,7 @@ See [Public Key Cryptography](./public-key-cryptography.md) for an overview of h
 
 1. Enter this command: `ssh-keygen -ted25519`
     - Answer the questions asked by ssh-keygen. Use default values for most questions. The use of a passphrase is **strongly** recommended. Avoid changing the filename from the default (unless there is a really good reason), because the location, name, and permission of keys is critical.
-      - ssh-keygen will produce two files:
+    - ssh-keygen will produce two files:
       - `~/.ssh/id_ed25519` - your private key
       - `~/.ssh/id_ed25519.pub` - your public key
      
