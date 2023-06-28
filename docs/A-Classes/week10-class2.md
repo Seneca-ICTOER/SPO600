@@ -9,6 +9,6 @@ description: Week 10 - Class 2
 
 ## Advanced Memory
 
-- A discussion of of Advanced Memory Systems
+- A discussion of Advanced Memory Systems
 - No video available at this time
 - Not directly related to the course project
