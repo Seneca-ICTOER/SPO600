@@ -108,7 +108,7 @@ as foo.s -o foo.o
 ld foo.o -o foo
 ```
 
-2. Use gcc to invoke the assembler and linker:
+2. Use _gcc_ to invoke the assembler and linker:
 
 ```assembly
 gcc foo.S -o foo
