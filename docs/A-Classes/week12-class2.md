@@ -49,11 +49,11 @@ static void (*name_of_resolver_function(void)) {
   5. Build the software using the output file in place of the input file.
   6. Test it thoroughly! Use your tool and compile the output. Look at the final binary to check for asimd/sve/sve2 code, and make sure the program runs in both contexts (run the binary directly to test it in asimd mode, and use the qemu-aarch64 tool to run the binary in sve2 mode).
   7. Write it up in one or more blog posts.
-    - The mark assigned will depend on:
-      - The quality of the implementation - For example, does it accept various input files and process them correctly? Are the output files reliably usable? Is the tool user-friendly?
-      - The amount and quality of the testing - For example, have you demonstrated that the tool works correctly? Can you show the asimd, sve, and sve2 code in the compiled binary?
-      - The quality of the writing - For example, have you fully explained the code? Have you documented how to use your tool with clear, step-by-step instructions? Is the code provided in a form that makes it easy to test?
-      - If the basic operation of the program is good, bonus marks may be assigned for additional features and for overcoming the (permitted) limitations. See the project page for details.
+      - The mark assigned will depend on:
+        - The quality of the implementation - For example, does it accept various input files and process them correctly? Are the output files reliably usable? Is the tool user-friendly?
+        - The amount and quality of the testing - For example, have you demonstrated that the tool works correctly? Can you show the asimd, sve, and sve2 code in the compiled binary?
+        - The quality of the writing - For example, have you fully explained the code? Have you documented how to use your tool with clear, step-by-step instructions? Is the code provided in a form that makes it easy to test?
+        - If the basic operation of the program is good, bonus marks may be assigned for additional features and for overcoming the (permitted) limitations. See the project page for details.
 
 ## Build Targets
 
