@@ -13,7 +13,7 @@ Running the `make` command by itself will execute the makefile script named `Mak
 
 ## Targets and Dependencies
 
-Picture a very simple build, where the file `test.c` is compiled by gcc into the executable binary named `test`.
+Picture a very simple build, where the file `test.c` is compiled by _gcc_ into the executable binary named `test`.
 
 ```text
 test.c -> compiled by the command 'gcc test.c  -o test' -> test
