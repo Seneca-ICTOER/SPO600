@@ -7,7 +7,7 @@ description: Disassembler
 
 # Disassembler
 
-A _disassembler_ is a tool which converts [machine code](./machine-language.md) to an assembly language representations.
+A _disassembler_ is a tool which converts [machine code](./machine-language.md) to an [assembly language](/F-AssemblyLanguage/assembly-language.md) representations.
 
 On GNU Linux systems, the _objdump_ tool acts as a disassembler. The GNU debugger (gdb) can also do disassembly.
 
