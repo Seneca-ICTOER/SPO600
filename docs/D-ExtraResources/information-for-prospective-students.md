@@ -16,7 +16,7 @@ Here is some background information you may find useful:
 **If you are a System/Network Adminsitration (CTY) or Software Development (CPA/CPD) student and...**
 
 - ...are intrigued by the inner workings of computers
-- ...want to understand how computer software really works
+- ...want to understand how computer software _really_ works
 - ...want to find out why most of the things programmers believe about the software they write is false
 
 **And you...**
