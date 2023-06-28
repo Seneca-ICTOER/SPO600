@@ -27,7 +27,7 @@ $ irssi
 ```
 
 - Type "irssi" in the new bash prompt in order to launch _IRSSI_, the irc application. As a side note, if you want to exit a _screen_ session just type "exit" in the bash prompt to return to the main prompt where you originally launched _screen_ from.
-- In the IRSSI prompt, connect to a server:
+- In the _IRSSI_ prompt, connect to a server:
 
 ```bash
 /connect irc.mozilla.org
