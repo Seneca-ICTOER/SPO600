@@ -48,7 +48,7 @@ Note: some ARM documentation will refer to `<arm_sve2.h>`, but in gcc, the corre
 
 To detect SVE2 capability in the compilation target, use the macro `__ARM_FEATURE_SVE2`:
 
-```text
+```c
 #if __ARM_FEATURE_SVE2
 ...
 #endif
