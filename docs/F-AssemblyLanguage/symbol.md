@@ -23,4 +23,4 @@ In order to reduce the size of distributed binaries, symbolic debug data may be 
 
 ## Reserved Names
 
-Many tools (such as [assemblers](/E-ComputerArchitecture/assembler.md)) have reserved names -- names which cannot be used for user-defined symbols because they conflict with pre-defined or internal symbols or create ambiguity in the source code. For example, in aarch64 gas assembly syntax, you cannot use x0 as a constant name, because it conflicts with the register name.
+Many tools (such as [assemblers](/E-ComputerArchitecture/assembler.md)) have _reserved names_ -- names which cannot be used for user-defined symbols because they conflict with pre-defined or internal symbols or create ambiguity in the source code. For example, in aarch64 gas assembly syntax, you cannot use x0 as a constant name, because it conflicts with the register name.
