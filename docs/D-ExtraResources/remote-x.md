@@ -22,7 +22,7 @@ Where:
 
 - _server_ is the hostname of the server: blank for local connections via the fastest avilable means; `localhost` for local connections via TCP/IP; or a hostname for remote connections via TCP/IP.
 - _display_ is the display number. These are numbered starting at zero. The port number used for TCP/IP connections is (6000+display).
-- _screen_ is the screen number if the display supports multiple screens (this is mostly obsolete; most multi-screen X servers now merge them into a single display, using the Xinerama protocol extension).
+- _screen_ is the screen number if the display supports multiple screens (this is mostly obsolete; most multi-screen X servers now merge them into a single display, using the _Xinerama_ protocol extension).
 
 Therefore:
 
