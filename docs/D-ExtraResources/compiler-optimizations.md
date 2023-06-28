@@ -13,7 +13,7 @@ _Compiler optimizations_ are alterations made to code by a compiler to achieve t
 
 GCC offers a large number of optimization options, most of which can be controlled in combination using the `-O` flag. This option accepts a value from 0 (no optimization) through 3 (highest optimization), s (optimize for size), fast (optimize for speed only), or g (optimize for debugging experience - avoid optimizations which convolute debugging).
 
-The `-O` actually selects a set of features. These features may also be individually selected using the `-f` flag, followed by the feature name; for example, `-funroll_loops` enables the unrolling of loops (note: other features also affect loop unrolling). To disable a feature, use the `-f` flag followed by `no-` and the feature name; for example, `-fno-unroll-loops` turns off loop unrolling.
+The `-O` actually selects a set of _features_. These features may also be individually selected using the `-f` flag, followed by the feature name; for example, `-funroll_loops` enables the unrolling of loops (note: other features also affect loop unrolling). To disable a feature, use the `-f` flag followed by `no-` and the feature name; for example, `-fno-unroll-loops` turns off loop unrolling.
 
 To see the individual features enabled by a particular `-O` flag, or combination of `-O` and feature flags, use the `-Q --help=optimizers` flags, which will query the optimization feature list. For example, to see all of the optimizations enabled/disabled at `-O2`, use this command:
 
