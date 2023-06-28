@@ -7,6 +7,7 @@ description: Participants and Project Table
 
 # Participants and Project Table
 
+These are the participants in the [SPO600](../landing-page.md) course during Fall 2022. It will be updated from information submitted through the [SPO600 Communication Tools](./communication-tools.md) form.
 
 | # |	Name |	Preferred name or nickname |	Blog URL |	Seneca LDAP ID |
 | --- | --- | --- | --- | --- |
