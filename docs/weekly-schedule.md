@@ -7,11 +7,11 @@ description: Weekly Schedule for SPO600
 
 # Weekly Schedule
 
-This is the schedule and main index page for the SPO600 Software Portability and Optimization course for Fall 2022.
+This is the schedule and main index page for the [SPO600](./landing-page.md) _Software Portability and Optimization_ course for Fall 2022.
 
 **It's Alive!:** This [SPO600](./landing-page.md) weekly schedule will be updated as the course proceeds - dates and content are subject to change. The cells in the summary table will be linked to relevant resources and labs as the course progresses.
 
-Schedule Summary Table
+**Schedule Summary Table**
 
 Please follow the links in each cell for additional detail which will be added below as the course proceeds -- especially for the _Deliverables_ column.
 
