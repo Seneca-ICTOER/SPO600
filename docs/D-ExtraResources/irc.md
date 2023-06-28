@@ -24,7 +24,7 @@ There are several IRC networks used by the Open Source communities in which Sene
 There are many IRC client programs available. Wikipedia maintains a [comparison list of IRC clients](http://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients). Three good choices include:
 
 - [Chatzilla](https://addons.mozilla.org/en-US/firefox/addon/16) - a Firefox extension
-- [XChat](http://en.wikipedia.org/wiki/XChat) - a cross-platform (Linux/Mac OSX/Windows) graphical client. XChat is available in Fedora. Note: Two pre-compiled versions of XChat are available for Windows from two different groups - a [no-cost](http://www.silverex.org/news/) version and a [$19.99 shareware](http://xchat.org/windows/).
+- [XChat](http://en.wikipedia.org/wiki/XChat) - a cross-platform (Linux/Mac OSX/Windows) graphical client. XChat is available in Fedora. **Note**: Two pre-compiled versions of XChat are available for Windows from two different groups - a [no-cost](http://www.silverex.org/news/) version and a [$19.99 shareware](http://xchat.org/windows/).
 - [Irssi](http://irssi.org/) - a text-mode client. When used with the screen program on a Linux or Mac OSX host, it can be left running constantly and you can disconnect/reconnect to it from multiple locations. Irssi is available in Fedora.
 
 ### Menus vs. Commands
