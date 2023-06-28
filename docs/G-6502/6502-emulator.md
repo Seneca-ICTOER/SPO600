@@ -40,7 +40,7 @@ The assembler accepts these inputs:
 
 - 6502 assembler instructions, optionally prefixed with a label and a colon. Examples:
   - simple instruction: `STA $10`
-  - instruction with a label: LOOP: `STA ($10),Y`
+  - instruction with a label: `LOOP: STA ($10),Y`
     - when a label is used, the address of the label can be referenced using the label name: `JMP LOOP`
 
 ### Directives
@@ -70,7 +70,7 @@ STA $28
 
 ### Comments
 
-any characters on a line following an unquoted semicolon `;` are treated as a comment and ignored.
+Any characters on a line following an unquoted semicolon `;` are treated as a comment and ignored.
 
 ## Using the Debugger
 
@@ -95,14 +95,14 @@ Visually, the memory map looks like this:
 | $00	| $0000-$00FF	| Zero Page	| $0000-$00FD, $00F5-$00FD, $00FE, $00FF |	Fast-access variable storage. Your software can use this region as you see fit. Variables used by the ROM routines -- Do not use this region if you are using the ROM routines. Random number generator. Last key pressed on keyboard -- See description below |
 | $01	| $0100-$01FF	| Stack	| 	| Hardware stack - values are pushed on to the stack by the PHA, PHP, JSR, and BRK instructions (plus hardware interrupts), and pulled from the stack by the PLA, PLP, RTS, and RTI instructions. The stack is first-in/last out (FILO) aka last-in, first-out (LIFO), and it descends in memory. After 256 bytes have been pushed on the stack, the stack will overflow back to the beginning and the oldest data will be overwritten. The current stack location is tracked in the Stack Pointer (SP) register. |
 | $02-$05	| $0200-$05FF	| Bitmapped Display	| 	| 32x32 pixel graphics display -- See description below. |
-| $06-$EF	| $0600-$EFFF	| Program Memory	| 	| RAM available for program use. By default, programs will be assembled starting at memory location $0600. This space is available for software and data. The arrangement and use of this memory is left to the programmer. |
-| $F0-FC	| $F000-$FCFF	| Character Display	| 	| 80 colummn x 25 line character display for text messages -- See description below. |
-| $FD	| $FD00-$FDFF	| Reserved	| 	| This memory range is reserved for future ROM expansion. |
-| $FE-$FF	| $FE00-$FFFF	| ROM	| $FE00-FF80, $FF81-$FFF9, $FFFA-$FFFF |	This region is occupied by a small Read-Only Memory (ROM) image that contains input-output routines for the character display and keyboard. Entry point table - This table consists of 3-byte "entry points" for the ROM routines. To access a particular routine, use the Jump to SubRoutine (JSR) instruction with the corresponding entry point. This arrangement allows the ROM image to be revised without changing the entry point locations. See ROM Routines below for details on the available entry points. Hardware vectors - On a hardware 6502 system, three 2-byte pointers (or "vectors") are used to access software routines to handle non-maskable interrupts (NMI) and the BRK instruction (vector $FFFA), CPU reset (vector $FFFC), and hardware interrupt (IRQ) (vector $FFFF). Since this is an emulator, these vectors are not used. |
+| \$06-\$EF	| \$0600-\$EFFF	| Program Memory	| 	| RAM available for program use. By default, programs will be assembled starting at memory location $0600. This space is available for software and data. The arrangement and use of this memory is left to the programmer. |
+| $F0-FC	| \$F000-\$FCFF	| Character Display	| 	| 80 colummn x 25 line character display for text messages -- See description below. |
+| $FD	| \$FD00-\$FDFF	| Reserved	| 	| This memory range is reserved for future ROM expansion. |
+| \$FE-\$FF	| \$FE00-\$FFFF	| ROM	| \$FE00-FF80, $FF81-\$FFF9, \$FFFA-\$FFFF |	This region is occupied by a small Read-Only Memory (ROM) image that contains input-output routines for the character display and keyboard. Entry point table - This table consists of 3-byte "entry points" for the ROM routines. To access a particular routine, use the Jump to SubRoutine (JSR) instruction with the corresponding entry point. This arrangement allows the ROM image to be revised without changing the entry point locations. See [ROM Routines](#rom-routines) below for details on the available entry points. Hardware vectors - On a hardware 6502 system, three 2-byte pointers (or "vectors") are used to access software routines to handle non-maskable interrupts (NMI) and the BRK instruction (vector $FFFA), CPU reset (vector $FFFC), and hardware interrupt (IRQ) (vector $FFFF). Since this is an emulator, these vectors are not used. |
 
 There are four peripherals available:
 
-- a one-byte pseudo-random number generator (PRNG) at **$fe**.
+- a one-byte pseudo-random number generator (_PRNG_) at **$fe**.
 - a single-key buffer at **$ff** - if you write to this address, it will remain unchanged until a new keypress is received. Printable characters plus Return/Enter and Backspace are reported as ASCII codes; cursor keys are reported as $80=up, $81=right, $82=down, $83=left.
 - a 32x32 pixel bitmapped display at **$0200-$05ff**, with one byte per pixel. The upper-left pixel is at address $0200, the pixel to the right is $0201, and the first pixel on the second row is $0220. A [reference spreadsheet](https://docs.google.com/spreadsheets/d/1a1-ZZ1opY8xcuUHNxj3YW75dxOPynSuP2-QGSvZGzYY/edit?usp=sharing) shows the row/column to address mapping. The lowest four bits of each byte select one of 16 colours.
     - $0: Black
@@ -121,8 +121,8 @@ There are four peripherals available:
     - $d: Light green
     - $e: Light blue
     - $f: Light grey
-- an 80x25 character display at **$f000-$fcff**, with one byte per character. Printable ASCII characters will be displayed. If the high-order bit is set, the character will be shown in  **reverse video** .
-- a read-only ROM chip is present at **$fe00-$ffff**; see below for details.
+- an 80x25 character display at **\$f000-\$fcff**, with one byte per character. Printable ASCII characters will be displayed. If the high-order bit is set, the character will be shown in  **reverse video** .
+- a read-only ROM chip is present at **\$fe00-\$ffff**; see below for details.
 
 The Reset button clears the zero page, bitmap display, and character display, and resets the stack pointer (SP=$ff), program counter (PC=$0600), status register (P=$30), and the general purpose registers (A=X=Y=$00).
 
