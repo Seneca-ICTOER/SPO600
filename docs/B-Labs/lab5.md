@@ -140,7 +140,7 @@ Blog about your experiments with a detailed analysis of your results, including 
 
 **Analysis**
 
-Do a thorough analysis of the results. Be certain (and prove!) that your performance measurement does not include the generation or summarization of the test data. Do multiple runs and discard the outliers. Decide whether to use mean, minimum, or maximum time values from the multiple runs, and explain why you made that decision. Control your variables well. Show relative performance as percentage change, e.g., "this approach was NN% faster than that approach".
+Do a thorough analysis of the results. Be certain (and prove!) that your performance measurement _does not_ include the generation or summarization of the test data. Do multiple runs and discard the outliers. Decide whether to use mean, minimum, or maximum time values from the multiple runs, and explain why you made that decision. Control your variables well. Show relative performance as percentage change, e.g., "this approach was NN% faster than that approach".
 
 **Time and Memory Usage of a Program**
 
