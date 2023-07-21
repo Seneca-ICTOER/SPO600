@@ -14,8 +14,10 @@ description: Communication Tools
 To participate in the SPO600 course, you need to:
 
 1. Create a blog (if you don't already have one) or create a tag/category for SPO600 if you're going to use an existing blog. Collect these pieces of information:
-  - **The URL of your main public blog page**
-  - **The URL of your blog feed - this is the link that will provide an RSS or ATOM feed of your blog content. (If you're using a tag/category, make sure that your feed includes only posts with that tag/category).**
+  
+    - **The URL of your main public blog page**
+    - **The URL of your blog feed - this is the link that will provide an RSS or ATOM feed of your blog content. (If you're using a tag/category, make sure that your feed includes only posts with that tag/category).**
+
 2. Create an SSH key pair.
 3. Fill in [this form](https://forms.office.com/r/Mxe4wcBJ41) to send this information to your professor.
 
